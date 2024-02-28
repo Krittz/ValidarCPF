@@ -16,9 +16,9 @@ public class App {
                 System.out.print(">>> CPF: ");
                     String cpf = sc.nextLine();
                     if (validar(cpf)) {
-                        System.out.println("͡° ͜ʖ ͡ – Válido");
+                        System.out.println("Válido");
                     } else {
-                        System.out.println("<<<(⊙︿⊙)>>> Inválido");
+                        System.out.println("Inválido");
                     }
                     break;
 
@@ -26,7 +26,7 @@ public class App {
                     if (op != 0) {
                         System.out.println("(!) OPÇÃO INVÁLIDA (!)");
                     } else {
-                        System.out.println("(ᴗᵔᴥᵔ) Bye-Bye (ᴗᵔᴥᵔ)");
+                        System.out.println("Bye-Bye");
                     }
                     break;
             }
